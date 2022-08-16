@@ -1,0 +1,15 @@
+package com.shop.fashion.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+public class FormatPriceDto {
+	private int id;
+	private String price;
+}

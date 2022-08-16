@@ -1,0 +1,262 @@
+.commu-detail-btn-box {
+	margin-left: 15%;
+}
+
+.commu-detail-center-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.commu-detail-container {
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	height: auto;
+	position: absolute;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top:3%;
+	padding-bottom: 3%;
+	box-shadow: 4px 3px 5px 0px #453675;
+}
+
+.commu-detail-img-container {
+	width: 500px;
+	height: 650px;
+}
+
+.commu-detail-img {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	object-fit: contain;
+}
+
+.commu-detail-trim {
+	width: 5%;
+	height: 100%;
+}
+
+.commu-detail-div-main-container {
+	width: 500px;
+	height: 600px;
+	overflow-x: hidden;
+	-ms-overflow-style: none;
+}
+
+.commu-detail-like-icon-box {
+	display: inline;
+}
+
+.commu-detail-div-main-container::-webkit-scrollbar {
+	display: none;
+}
+
+.commu-detail-div-title-container {
+	width: 95%;
+}
+
+.cdtb-container {
+	width: 100%;
+	max-width: 400px;
+}
+
+.commu-detail-text-box {
+	font-family: "Gowun Batang", serif;
+	width: 90%;
+}
+
+.commu-detail-text-box a {
+	color: grey;
+}
+
+.commu-detail-text-box a:hover {
+	text-decoration: none;
+	color: grey;
+}
+
+.commu-detail-title {
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: 10px
+}
+
+.commu-detail-div-content-container {
+	width: 95%;
+	margin-top: 20px;
+}
+
+.commu-detail-span-content {
+	font-size: 14px;
+}
+
+.hr-goodlook-line {
+	width: 288px;
+	margin-left: 0;
+	border-top: 1px solid #eeeeee7f;
+}
+
+.commu-detail-input {
+	display: inline;
+	width: 270px;
+	height: 32px;
+	font-size: 14px;
+	border: 0;
+	border-bottom: 1px solid black;
+	outline: none;
+	padding-left: 10px;
+	background-color: rgb(255, 255, 255);
+}
+
+.commu-input-reply {
+	font-size: 13px;
+}
+
+.commu-detail-btn {
+	display: inline;
+	border: 0;
+	background-color: rgb(0, 0, 0);
+	color: white;
+	width: 100px;
+}
+
+.commu-detail-reply-first-line-box {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 10px;
+	margin-top: 25px;
+}
+
+.commu-detail-btn-up:active {
+	background-color: white;
+	color: black;
+}
+
+.commu-detail-reply-container {
+	width: 100%;
+}
+
+.hr-goodlook-line-detail {
+	width: 100%;
+	margin-left: 0;
+	border-top: 1px solid #dcdcdc;
+}
+
+.commu-detail-reply-btn-box {
+	flex-grow: 1;
+	width: 100%;
+}
+
+.commu-detail-reply-firstline-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.commu-detail-reply-text {
+	color: rgb(56, 56, 56);
+}
+
+.commu-detail-reply-user {
+	font-size: 14px;
+	font-weight: 500;
+	margin: 0px;
+	align-self: center;
+}
+
+.commu-detail-btn-reply {
+	display: inline;
+	border-color: black;
+	border-width: 1px;
+	background-color: rgb(255, 255, 255);
+	color: black;
+	width: 38px;
+	font-size: 11px;
+}
+
+.commu-detail-input-reply {
+	display: inline;
+	width: 100%;
+	height: 32px;
+	font-size: 14px;
+	border: 0;
+	border-bottom: 1px solid black;
+	outline: none;
+	padding-left: 10px;
+	background-color: rgb(255, 255, 255);
+}
+
+.commu-reply-profile-div {
+	display: flex;
+}
+
+.commu-detail-reply-content {
+	font-size: 14px;
+	width: 85%;
+	resize: none;
+	border: none;
+	outline: none;
+	overflow-y: visible;
+	padding-left: 55px;
+	padding-bottom: 0.2em;
+	line-height: 1.6;
+}
+
+.commu-detail-reply-content::-webkit-scrollbar {
+	display: none;
+}
+
+.commu-reply-icon {
+	margin-right: 12px;
+}
+
+.reply-count-span {
+	font-family: "Gowun Batang", serif;
+}
+
+.likeCount-text {
+	font-family: "Gowun Batang", serif;
+	font-weight: bold;
+}
+
+.commu-reply-box {
+	display: flex;
+	width: 100%;
+}
+
+.commu-reply-circle-img-box {
+	border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    display: inline;
+    margin-right: 15px;
+    display: flex;
+    border: 0.5px solid #aaaaaa;
+}
+
+.commu-reply-circle-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.like-count-button,
+.like-count-button:hover,
+.like-count-button:active,
+.like-count-button:focus {
+	border: none !important;
+	box-shadow: none !important;
+	outline: none !important;
+	text-decoration: none !important;
+}
+
+@media ( max-width : 900px) {
+	.commu-detail-div-main-container {
+		
+	}
+}

@@ -1,0 +1,56 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /
+    
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/shop?serverTime=Asia/Seoul
+    username: ten
+    password: 1q2w3e4r5t!
+    hikari:
+      connectionTimeout: 30000
+      maximumPoolSize: 10
+      maxLifetime: 1800000
+      poolName: HikariCP
+      readOnly: false 
+    
+  jpa:
+    open-in-view: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      use-new-id-generator-mappings: false
+    show-sql: false
+    properties:
+      hibernate.format_sql: true        
+
+  jackson:
+    serialization:
+      fail-on-empty-beans: false  
+
+  security:
+    user:
+      name: test
+      password: 1234              
+        
+  servlet:
+    multipart:
+      max-file-size: 20MB # 파일 하나의 최대 용량
+      max-request-size: 200MB
+      
+file:
+  path: C:/projectImageDir/shop/upload/
+
+seller:
+  key: 홈페이지 주인장  
+  
+kakao:
+  key: d0799a91ef29823c93b2b218cb0c46070cf38e559ff42538d02c412f916430133c95338d1e64a0beb90b6184c3a35e24b2a64266915c134c8e47ec4a0933f92d

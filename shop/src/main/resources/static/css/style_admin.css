@@ -1,0 +1,84 @@
+.admin-menu-super-container {
+	font-family: "IBM Plex Sans KR", sans-serif;
+	padding-top: 20px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	height: 100vh;
+	position: fixed;
+	width: 10%;
+	min-width: 95px;
+	box-shadow: 0px 0px 5px #000;
+}
+
+.admin-menu-list-box {
+	display: flex;
+	justify-content: center;
+}
+
+.admin-menu-list-item {
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.admin-menu-title-box {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.admin-menu-nav-img {
+	width: 50px;
+	height: 50px;
+}
+
+.admin-menu-text {
+	margin-top: 20px;
+}
+
+.admin-container {
+	margin-left: 95px;
+}
+
+.setting-header-container {
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn {
+	margin-right: 10px;
+}
+
+.admin-img-box {
+	width: 70px;
+	height: 70px;	
+}
+
+.admin-td-img{
+	padding: 0px;
+}
+
+.admin-list-img{
+	width:100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.admin-detail-img-box {
+	width: 70%;
+	height: 70%;
+}
+
+.admin-commu-td {
+	max-width: 135px;
+	word-break:break-word;
+}
+
+.admin-menu-a:active,
+.admin-menu-a:focus {
+	border: none !important;
+	box-shadow: none !important;
+	outline: none !important;
+}

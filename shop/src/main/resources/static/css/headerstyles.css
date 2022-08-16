@@ -1,0 +1,96 @@
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  text-decoration: none;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd; text-decoration: none;}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block; text-decoration: none;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41; text-decoration: none;}
+.myinfo {
+	position: relative;
+	top: -10px;
+	margin-left: -8px;
+	height: 42px;
+}
+.basket {
+	position: relative;
+	top: -8px;
+	margin-left: -3px;
+	height: 42px;
+}
+.left {
+  margin-top: 50px;
+  left: 10%;
+  position: absolute;
+  width: 50%;
+  text-align: center;
+  font-size: 18px;
+}
+.topright {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  font-size: 18px;
+}
+.right{
+ margin-top: 100px;
+ position:  fixed;
+ right: 15%;
+}
+.pay{
+	margin-top: 7px;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+.item {
+	width: 200px;
+	margin: 0px auto;
+
+}
+
+.item img{
+	transition: all 0.2s linear;
+	
+}
+.item:hover img {
+	transform: scale(1.1);
+}

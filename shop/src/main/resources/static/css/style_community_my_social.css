@@ -1,0 +1,135 @@
+.ms-body {
+    display: flex;
+    justify-content: center;
+    width: 93%;
+}
+
+.ms-all-container {
+    width: 60%;
+    max-width: 1000px;
+    min-width: 370px;
+    box-shadow: 3px 2px 4px 0px #453675;
+    padding-bottom: 3%;
+}
+
+.ms-profile-container {
+    padding-left: 3%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.ms-img-container {
+    min-width: 150px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 8%;
+    margin-top: 4%;
+    border: 1px solid #b4b4b4;
+}
+
+.ms-profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ms-btn-box {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+
+.ms-btn {
+	border: none;
+	border-bottom: 4px solid #b4b4b4;
+	background-color: white;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.ms-profile-text-box {}
+
+.ms-pf-follow-num-box {
+	cursor: pointer;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.ms-pf-follower-num-box {
+	cursor: pointer;
+}
+
+.ms-pf-name-box {
+    margin-bottom: 25px;
+}
+
+.ms-pf-username {
+    font-size: 30px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.ms-pf-name {
+    font-size: 16px;
+}
+
+.ms-pf-follow-box {
+    font-size: 15px;
+    display: flex;
+}
+
+.ms-board-line-box {
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-left: 1%;
+}
+
+.ms-board-img-size-box {
+    width: 31%;
+    height: 31%;
+    margin: 1%;
+}
+
+.ms-board-img-box {
+    display: block;
+    overflow: hidden;
+    padding-bottom: 100%;
+    position: relative;
+}
+
+.ms-board-img {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+.follow-btn {
+	color: white;
+	text-decoration: none;
+	background-color: #453675;
+	padding: 5px 6px;
+	margin-left: 20px;
+}
+
+.follow-btn:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #453660;
+}
+
+@media ( max-width : 1100px) {
+	.ms-body {
+		width: 100%;
+	}
+}
